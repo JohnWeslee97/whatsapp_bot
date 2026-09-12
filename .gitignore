@@ -1,0 +1,46 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.env
+*.env.local
+.env.*
+!.env.example
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Django runtime & database
+*.sqlite3
+*.db
+db.sqlite3
+whatsapp_bot/db.sqlite3
+
+# Vector Store local embeddings storage
+vector_store/
+whatsapp_bot/vector_store/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+.qodo/
+*.swp
+*.swo
+.DS_Store
+
+# Log files
+*.log
+logs/
+
+# Testing & Coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
